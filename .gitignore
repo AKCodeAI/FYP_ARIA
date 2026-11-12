@@ -1,0 +1,29 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+.next/
+out/
+
+# AI model files
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+
+# Logs and system files
+*.log
+.DS_Store
